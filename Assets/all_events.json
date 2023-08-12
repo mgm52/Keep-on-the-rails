@@ -1,0 +1,1176 @@
+[
+    {
+        "Title": "Unscheduled Maintenance",
+        "Description": "The keep's engine begins to sputter and groan. Immediate attention might be necessary.",
+        "Options": [
+            {
+                "Description": "Fix the engine immediately",
+                "FoodChange": -2,
+                "FunChange": -1,
+                "FortificationChange": 3,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore the noises",
+                "FoodChange": 0,
+                "FunChange": 0,
+                "FortificationChange": -3,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "Mysterious Artifact",
+        "Description": "A shiny object glints off the tracks. It could be an artifact of interest or a potential hazard.",
+        "Options": [
+            {
+                "Description": "Investigate the artifact",
+                "FoodChange": -1,
+                "FunChange": 2,
+                "FortificationChange": -1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore the artifact",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "Lizard Festival",
+        "Description": "Your path crosses a local lizard festival. Joining could be fun, but would use resources.",
+        "Options": [
+            {
+                "Description": "Join the festival",
+                "FoodChange": -2,
+                "FunChange": 3,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Bypass the festival",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Trade with festival-goers",
+                "FoodChange": 2,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "lizard"
+        ]
+    },
+    {
+        "Title": "Monsoon Season",
+        "Description": "Monsoon season is upon you. The keep could be better fortified to endure the rains.",
+        "Options": [
+            {
+                "Description": "Fortify the keep",
+                "FoodChange": -2,
+                "FunChange": -1,
+                "FortificationChange": 3,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Do nothing",
+                "FoodChange": 0,
+                "FunChange": 0,
+                "FortificationChange": -2,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "rain"
+        ]
+    },
+    {
+        "Title": "Mudslide",
+        "Description": "Recent heavy rains have caused a mudslide on the tracks.",
+        "Options": [
+            {
+                "Description": "Clear the tracks",
+                "FoodChange": -2,
+                "FunChange": -1,
+                "FortificationChange": 1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Find a new route",
+                "FoodChange": -1,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "rain"
+        ]
+    },
+    {
+        "Title": "Lizard King",
+        "Description": "The legendary Lizard King is rumored to be nearby. Some believe he could bring fortune or disaster.",
+        "Options": [
+            {
+                "Description": "Seek out the Lizard King",
+                "FoodChange": -1,
+                "FunChange": 3,
+                "FortificationChange": -1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Avoid the Lizard King",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "lizard"
+        ]
+    },
+    {
+        "Title": "Lizard Feast",
+        "Description": "Your keep inadvertently rolls over a lizard burrow, causing a commotion among the local lizard population.",
+        "Options": [
+            {
+                "Description": "Apologize and make amends with a feast",
+                "FoodChange": -3,
+                "FunChange": 2,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore the commotion",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Move the keep away from the burrow",
+                "FoodChange": -1,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "lizard"
+        ]
+    },
+    {
+        "Title": "Trackside Market",
+        "Description": "You come across a bustling trackside market full of potential supplies and entertainment.",
+        "Options": [
+            {
+                "Description": "Shop for supplies",
+                "FoodChange": 3,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Join the festivities",
+                "FoodChange": -1,
+                "FunChange": 2,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Pass by the market",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "person"
+        ]
+    },
+    {
+        "Title": "Track Blockage",
+        "Description": "An enormous tree has fallen on the tracks, completely blocking your path.",
+        "Options": [
+            {
+                "Description": "Remove the tree",
+                "FoodChange": -2,
+                "FunChange": -1,
+                "FortificationChange": 1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Find a new route",
+                "FoodChange": -1,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Use the tree as a fortification",
+                "FoodChange": -2,
+                "FunChange": 0,
+                "FortificationChange": 2,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "Awakening of the Ancient Dragon",
+        "Description": "The mythical Ancient Dragon, thought to be a mere legend, has awoken. Its mere presence skyrockets the risk of a Dragon Apocalypse.",
+        "Options": [
+            {
+                "Description": "Attempt to appease the dragon",
+                "FoodChange": -6,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Prepare for the worst",
+                "FoodChange": 0,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 50
+            }
+        ],
+        "EventFlags": [
+            "night", "fire"
+        ]
+    },
+    {
+        "Title": "Broken Down Train",
+        "Description": "A broken-down train is blocking the tracks up ahead.",
+        "Options": [
+            {
+                "Description": "Help fix the train",
+                "FoodChange": -2,
+                "FunChange": 1,
+                "FortificationChange": 1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Dismantle train for parts",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 2,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Wait for the train to be fixed",
+                "FoodChange": -1,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Find a new route",
+                "FoodChange": -1,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "Unexpected Lizard Migration",
+        "Description": "You come across a migration path of a rare lizard species.",
+        "Options": [
+            {
+                "Description": "Document the event",
+                "FoodChange": -1,
+                "FunChange": 2,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Help guide the lizards",
+                "FoodChange": -2,
+                "FunChange": 3,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Wait for the migration to pass",
+                "FoodChange": -1,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Find a new route",
+                "FoodChange": -1,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "lizard"
+        ]
+    },
+    {
+        "Title": "Derailed Cart",
+        "Description": "A cart full of supplies has derailed from the keep.",
+        "Options": [
+            {
+                "Description": "Recover the supplies",
+                "FoodChange": 2,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Repair the cart",
+                "FoodChange": -2,
+                "FunChange": 0,
+                "FortificationChange": 2,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Abandon the cart",
+                "FoodChange": -1,
+                "FunChange": 0,
+                "FortificationChange": -1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Use the cart as a distraction for enemies",
+                "FoodChange": 0,
+                "FunChange": 0,
+                "FortificationChange": 1,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "Approaching Storm",
+        "Description": "A massive storm is heading towards your keep.",
+        "Options": [
+            {
+                "Description": "Fortify the keep",
+                "FoodChange": -2,
+                "FunChange": -1,
+                "FortificationChange": 2,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Evacuate the keep",
+                "FoodChange": -1,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Weather the storm",
+                "FoodChange": -1,
+                "FunChange": -2,
+                "FortificationChange": -1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Move towards the storm for fun",
+                "FoodChange": -2,
+                "FunChange": 2,
+                "FortificationChange": -1,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "rain"
+        ]
+    },
+    {
+        "Title": "Lizard Infestation",
+        "Description": "A particular species of lizard has infested the keep.",
+        "Options": [
+            {
+                "Description": "Attempt to coexist with the lizards",
+                "FoodChange": -1,
+                "FunChange": 2,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Expel the lizards",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Capture and study the lizards",
+                "FoodChange": -2,
+                "FunChange": 3,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore the infestation",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": -1,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "lizard"
+        ]
+    },
+    {
+        "Title": "Nearby Village Festival",
+        "Description": "A nearby village is holding a festival. There might be opportunities for fun and trade.",
+        "Options": [
+            {
+                "Description": "Join the festival",
+                "FoodChange": -1,
+                "FunChange": 2,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Trade at the festival",
+                "FoodChange": 1,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore the festival",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Entertain festival-goers with stories of your journey",
+                "FoodChange": 0,
+                "FunChange": 3,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "person"
+        ]
+    },
+    {
+        "Title": "Shakespearean Lizards",
+        "Description": "A troupe of lizards is performing a rendition of 'Hamlet'. It's strangely captivating.",
+        "Options": [
+            {
+                "Description": "Stay and watch the performance",
+                "FoodChange": -1,
+                "FunChange": 2,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Continue with your journey",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "lizard"
+        ]
+    },
+    {
+        "Title": "Keep Olympics",
+        "Description": "The inhabitants of the keep propose holding an Olympics for amusement.",
+        "Options": [
+            {
+                "Description": "Host the Olympics",
+                "FoodChange": -2,
+                "FunChange": 4,
+                "FortificationChange": -1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore the proposal",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "person"
+        ]
+    },
+    {
+        "Title": "Alien Encounter",
+        "Description": "An alien spaceship lands near your keep. They're offering to trade technology for food.",
+        "Options": [
+            {
+                "Description": "Trade food for technology",
+                "FoodChange": -3,
+                "FunChange": 2,
+                "FortificationChange": 3,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore",
+                "FoodChange": 0,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "ufo"
+        ]
+    },
+    {
+        "Title": "Missing Key",
+        "Description": "The key to the keep's food storage is missing.",
+        "Options": [
+            {
+                "Description": "Search for the key",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Break the door",
+                "FoodChange": 0,
+                "FunChange": 1,
+                "FortificationChange": -1,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "chest"
+        ]
+    },
+    {
+        "Title": "Mysterious Cipher",
+        "Description": "You find a coded message on an old parchment. It reads: '9-14-22-5-18-20 13-5'. What does it mean?",
+        "Options": [
+            {
+                "Description": "Translate it as 'I Need Me'",
+                "FoodChange": 1,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Translate it as 'Invert Me'",
+                "FoodChange": 4,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore the message",
+                "FoodChange": 1,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "The Lock Puzzle",
+        "Description": "You encounter a lock with a numerical code. The hint says: 'I am an odd number. Take away one letter and I become even.' What is the code?",
+        "Options": [
+            {
+                "Description": "Try the code 1",
+                "FoodChange": 1,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Try the code 7",
+                "FoodChange": 4,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Break the lock",
+                "FoodChange": 0,
+                "FunChange": 1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "chest"
+        ]
+    },
+    {
+        "Title": "Encounter with Friendly Keep",
+        "Description": "You cross paths with another friendly moving keep.",
+        "Options": [
+            {
+                "Description": "Trade food for fortification supplies",
+                "FoodChange": -3,
+                "FunChange": 0,
+                "FortificationChange": 2,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Share stories and boost morale",
+                "FoodChange": 0,
+                "FunChange": 2,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "Hostile Keep in Sight",
+        "Description": "A known hostile keep is spotted in the distance.",
+        "Options": [
+            {
+                "Description": "Prepare for a potential attack",
+                "FoodChange": -1,
+                "FunChange": -1,
+                "FortificationChange": 2,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Avoid and move away",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Attempt diplomacy",
+                "FoodChange": -2,
+                "FunChange": 0,
+                "FortificationChange": 1,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "Abandoned Keep Found",
+        "Description": "An old abandoned keep is found nearby. It may contain valuable resources, but it could also be dangerous.",
+        "Options": [
+            {
+                "Description": "Explore the keep",
+                "FoodChange": 2,
+                "FunChange": -1,
+                "FortificationChange": -1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore the keep",
+                "FoodChange": 0,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "chest"
+        ]
+    },
+    {
+        "Title": "Raiding Party from a Hostile Keep",
+        "Description": "A raiding party from a hostile keep is approaching.",
+        "Options": [
+            {
+                "Description": "Fight them off",
+                "FoodChange": -1,
+                "FunChange": -1,
+                "FortificationChange": -2,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Negotiate for peace",
+                "FoodChange": -3,
+                "FunChange": 0,
+                "FortificationChange": 1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Flee",
+                "FoodChange": -1,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "person"
+        ]
+    },
+    {
+        "Title": "Rainy Season Ahead",
+        "Description": "The keep is heading into a region known for heavy rains.",
+        "Options": [
+            {
+                "Description": "Fortify the keep",
+                "FoodChange": -2,
+                "FunChange": 0,
+                "FortificationChange": 3,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "rain"
+        ]
+    },
+    {
+        "Title": "Lizard Nests on Tracks",
+        "Description": "Several lizard nests are spotted on the tracks ahead.",
+        "Options": [
+            {
+                "Description": "Clear the nests",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Divert the keep",
+                "FoodChange": -1,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "lizard"
+        ]
+    },
+    {
+        "Title": "Fruitful Oasis",
+        "Description": "A fruitful oasis is discovered. It's a great opportunity to replenish food supplies, but it will require some time.",
+        "Options": [
+            {
+                "Description": "Harvest the fruits",
+                "FoodChange": 3,
+                "FunChange": 1,
+                "FortificationChange": -1,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "Nearby Village Under Attack",
+        "Description": "A nearby village is under attack by marauders.",
+        "Options": [
+            {
+                "Description": "Assist the village",
+                "FoodChange": -2,
+                "FunChange": 0,
+                "FortificationChange": -1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Stay out of it",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "person"
+        ]
+    },
+    {
+        "Title": "Keep in Need",
+        "Description": "A fellow keep is in need of food supplies.",
+        "Options": [
+            {
+                "Description": "Share food supplies",
+                "FoodChange": -3,
+                "FunChange": 2,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore their plea",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "Broken Bridge",
+        "Description": "The bridge ahead, crossing a deep canyon, has been damaged and looks unstable.",
+        "Options": [
+            {
+                "Description": "Attempt to cross",
+                "FoodChange": 0,
+                "FunChange": -2,
+                "FortificationChange": -3,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Find another way around",
+                "FoodChange": -2
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "Pests in the Granary",
+        "Description": "An infestation of phantom weevils has materialized in your granary, consuming your food reserves.",
+        "Options": [
+            {
+                "Description": "Attempt to exterminate the phantom weevils",
+                "FoodChange": -4,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Abandon the granary",
+                "FoodChange": -5,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "A Legendary Cornucopia",
+        "Description": "Your scouts discover a mystical cornucopia that produces an endless supply of food. But a sleeping troll guards it.",
+        "Options": [
+            {
+                "Description": "Attempt to steal the cornucopia",
+                "FoodChange": 5,
+                "FunChange": -2,
+                "FortificationChange": -2,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Leave the troll in peace",
+                "FoodChange": 0,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "chest"
+        ]
+    },
+    {
+        "Title": "A Ghostly Apparition",
+        "Description": "A spectral entity haunts your keep, scaring the inhabitants and ruining their fun.",
+        "Options": [
+            {
+                "Description": "Confront the ghost",
+                "FoodChange": 0,
+                "FunChange": -4,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore the ghost",
+                "FoodChange": 0,
+                "FunChange": -3,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "night"
+        ]
+    },
+    {
+        "Title": "Carnival of the Fairyfolk",
+        "Description": "A magical carnival run by fairyfolk has appeared near your keep. They invite you to join their festivities.",
+        "Options": [
+            {
+                "Description": "Join the carnival",
+                "FoodChange": -2,
+                "FunChange": 5,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Politely decline",
+                "FoodChange": 0,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "person"
+        ]
+    },
+    {
+        "Title": "Dragon's Fury",
+        "Description": "A dragon, enraged by the movement of your keep through its territory, attacks!",
+        "Options": [
+            {
+                "Description": "Defend the keep",
+                "FoodChange": -1,
+                "FunChange": -2,
+                "FortificationChange": -4,
+                "DARLChange": 25
+            },
+            {
+                "Description": "Attempt to appease the dragon",
+                "FoodChange": -5,
+                "FunChange": 0,
+                "FortificationChange": -2,
+                "DARLChange": -10
+            }
+        ],
+        "EventFlags": ["fire"]
+    },
+    {
+        "Title": "The Stone Golem's Gift",
+        "Description": "A wandering Stone Golem offers to fortify your keep using its mystical powers in exchange for stories and songs.",
+        "Options": [
+            {
+                "Description": "Accept the Golem's offer",
+                "FoodChange": 0,
+                "FunChange": -2,
+                "FortificationChange": 5,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Decline the offer",
+                "FoodChange": 0,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "Stray Magic",
+        "Description": "A ball of raw, stray magic has been found near your keep. It could be beneficial or disastrous.",
+        "Options": [
+            {
+                "Description": "Absorb the magic",
+                "FoodChange": 0,
+                "FunChange": 3,
+                "FortificationChange": -2,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Avoid the magic",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "magic"
+        ]
+    },
+    {
+        "Title": "Mysterious Seed",
+        "Description": "A mysterious seed has been discovered. Planting it in the keep during rain could bring benefit or trouble.",
+        "Options": [
+            {
+                "Description": "Plant the seed",
+                "FoodChange": 4,
+                "FunChange": -1,
+                "FortificationChange": -2,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Dispose of the seed",
+                "FoodChange": 0,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "rain"
+        ]
+    },
+    {
+        "Title": "Unfinished Spell",
+        "Description": "A powerful, unfinished spell has been discovered in the keep's library. Should we attempt to finish it?",
+        "Options": [
+            {
+                "Description": "Finish the spell",
+                "FoodChange": -2,
+                "FunChange": 3,
+                "FortificationChange": 1,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore the spell",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "magic"
+        ]
+    },
+    {
+        "Title": "Harvest Festival",
+        "Description": "Your villagers propose a Harvest Festival. It would consume food, but raise spirits.",
+        "Options": [
+            {
+                "Description": "Hold the festival",
+                "FoodChange": -3,
+                "FunChange": 4,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Cancel the festival",
+                "FoodChange": 0,
+                "FunChange": -2,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "person"
+        ]
+    },
+    {
+        "Title": "Phoenix Nest",
+        "Description": "A phoenix has built its nest near your keep. Its flames could be dangerous, but it could also be a powerful ally.",
+        "Options": [
+            {
+                "Description": "Befriend the Phoenix",
+                "FoodChange": -1,
+                "FunChange": 2,
+                "FortificationChange": 2,
+                "DARLChange": 20
+            },
+            {
+                "Description": "Chase the Phoenix away",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": -5
+            }
+        ],
+        "EventFlags": ["fire"]
+    },
+    {
+        "Title": "Hidden Dungeon",
+        "Description": "A hidden dungeon has been discovered beneath the keep. Who knows what's inside?",
+        "Options": [
+            {
+                "Description": "Explore the dungeon",
+                "FoodChange": -1,
+                "FunChange": 2,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Seal the dungeon",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "chest"
+        ]
+    },
+    {
+        "Title": "Goblin Traders",
+        "Description": "A group of Goblin Traders offers rare goods in exchange for food.",
+        "Options": [
+            {
+                "Description": "Trade with the goblins",
+                "FoodChange": -3,
+                "FunChange": 0,
+                "FortificationChange": 2,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore the goblins",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "goblin"
+        ]
+    },
+    {
+        "Title": "Mystic Pool",
+        "Description": "A mystic pool has been found, though the water could be poisonous.",
+        "Options": [
+            {
+                "Description": "Drink from the pool",
+                "FoodChange": 3,
+                "FunChange": -3,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Ignore the pool",
+                "FoodChange": 0,
+                "FunChange": 0,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": []
+    },
+    {
+        "Title": "Lost Sorcerer",
+        "Description": "A lost sorcerer asks for shelter from a storm and offers to teach a magic trick in return.",
+        "Options": [
+            {
+                "Description": "Shelter the sorcerer",
+                "FoodChange": -1,
+                "FunChange": 3,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            },
+            {
+                "Description": "Refuse the sorcerer",
+                "FoodChange": 0,
+                "FunChange": -1,
+                "FortificationChange": 0,
+                "DARLChange": 0
+            }
+        ],
+        "EventFlags": [
+            "rain",
+            "magic",
+            "person"
+        ]
+    }
+]
